@@ -1,0 +1,31 @@
+h2{
+    color: darkcyan;
+    padding-left: 1rem;
+}
+
+#changemargin{
+    padding-left: 1rem;
+   border-left: 5px solid red;
+   
+}
+body{
+    border-style: solid;
+    border-color:  cornflowerblue;
+    padding-left: 1rem;
+    border-width: 15px;  
+    
+}
+#makedivder{
+    border-bottom: 3px solid #b90d0d ;
+  
+    padding-bottom: 25px;
+}
+
+#changesomething{
+    text-transform: uppercase;
+    color: lightsalmon;
+    padding-left: 1rem;
+}
+#pad{
+    padding-left: 1rem;  
+}

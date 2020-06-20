@@ -1,0 +1,39 @@
+/* front-family*/
+p{
+    font-family: Arial;
+}
+
+/*font-size*/
+h1{
+    font-size: 20px;
+}
+
+
+/*front-size*/
+span{
+    font-size: 5.0em;
+}
+/*front-weight*/
+p{
+    font-weight: bold;
+}
+
+/*front-height*/
+p{
+    line-height: 1.5;
+}
+/*text-align*/
+h1{
+    text-align: center;
+}
+p{
+    text-align:  center;
+}
+/*text-decoration*/
+p{
+    text-decoration: underline;
+}
+
+h1{
+    text-decoration: line-through;
+}

@@ -1,0 +1,15 @@
+p{
+/*Content-width and height*/
+width: 50%;
+height: 300px;
+/*Border*/
+border: 2px solid blue;
+/*padding*/
+/* padding: 10px; */
+padding-left: 40px;
+/*Margin*/
+/* margin: 100px; all size of the margin*/
+/* margin-top: 20px; */
+/* margin: 20px 40px 40px 30px; */
+margin: 0 auto 0 auto; /* top bottom left right you need the px unless the number is 0
+}
