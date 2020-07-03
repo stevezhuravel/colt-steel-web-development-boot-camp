@@ -2,9 +2,23 @@ body{
     background: #f5d9d5;
     font-family: "Nunito", sans-serif;
 }
+.blurb h2{
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.blurb p{
+    color: #f498b8;
+}
+.content{
+    margin-top:100px;
+}
+
 #mainNavbar .navbar-brand{
     color: #ea1c2c;
-    
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 2;
 }
 
 #mainNavbar{
@@ -23,6 +37,7 @@ body{
     font-weight: 100;
     font-size: 4rem;
 }
+/* media has to do with screen size  */
 @media(max-width: 1200px){
     #headingGroup h1{
     font-weight: 100;
