@@ -11,7 +11,7 @@ var capital = capitalize(city); //"Paris"
 
 //  we do not need a if else statement because if we pass anything that is not a number is short cirucus it 
 function capitalize(str){
-    if(typeof str  === "nummber"){
+    if(typeof str  === "number"){
         return "that is not a string"
     }
     return str.charAt(0).toUpperCase() + str.slice(1);
