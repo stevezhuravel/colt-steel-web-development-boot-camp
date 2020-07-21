@@ -25,3 +25,36 @@ for(var i = 5; i <= 50; i++){
     }
 
 }
+
+// to loop over an array usinga for loop we use of the array's length property
+var colors = ["red", "orange", "yellow", "green" ];
+for(let i = 0; i < colors.length; i++){
+    // this print out each color
+    console.log(colors[i]);
+}
+// forEach
+// javascript provides an easy built-in way of iterating over an array: ForEach
+// 
+// arr.forEach(someFunction)
+
+var colors = ["red", "orange", "yellow", "green" ];
+
+// colors is holding all the colors 
+colors.forEach(function(color){
+    // color is a placeholdre, call it what ever you want
+    // what ever you call it passed to where you need to call it
+    console.log(colors);
+});
+
+function printColor(color){
+    console.log("***********");
+    console.log("purple");
+    console.log("***********");
+}
+// we call the array and do for each on the name of the method we made 
+colors.forEach(printColor);
+
+// the difference between for and forEach
+// in the for loop we dealing with a number
+
+// inforEach we are dealing with a temporay name that we have created name or item
