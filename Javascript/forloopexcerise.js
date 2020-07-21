@@ -48,11 +48,12 @@ colors.forEach(function(color){
 
 function printColor(color){
     console.log("***********");
-    console.log("purple");
+    console.log(color);
     console.log("***********");
 }
 // we call the array and do for each on the name of the method we made 
 colors.forEach(printColor);
+
 
 // the difference between for and forEach
 // in the for loop we dealing with a number
