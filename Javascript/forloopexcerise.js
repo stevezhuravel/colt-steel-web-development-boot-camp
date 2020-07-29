@@ -59,3 +59,4 @@ colors.forEach(printColor);
 // in the for loop we dealing with a number
 
 // inforEach we are dealing with a temporay name that we have created name or item
+
